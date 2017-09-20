@@ -37,4 +37,4 @@ def shutdown_server():
 #Entrence
 if __name__ == '__main__':
 	#Replace host with your own IP!!!
-	app.run(host='10.0.0.184')
+	app.run(host=Utility("","").getSystemIP())
